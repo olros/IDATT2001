@@ -9,10 +9,10 @@ public class WildAnimalFactorySingleton {
 	}
 
 	// static method to create instance of Singleton class
-	public static WildAnimalFactorySingleton getInstance()
-	{
-		if (instance == null)
+	public static WildAnimalFactorySingleton getInstance() {
+		if (instance == null) {
 			instance = new WildAnimalFactorySingleton();
+		}
 
 		return instance;
 	}
